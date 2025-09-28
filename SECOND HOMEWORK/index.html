@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Фанатский сайт</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="gallery.html" class="nav-link">Галерея</a>
+        <a href="tracks.html" class="nav-link">Треки</a>
+        <a href="video.html" class="nav-link">Видео</a>
+        <a href="citate.html" class="nav-link">Цитаты</a>
+    </nav>
+
+    <h1>Добро пожаловать на фанатский сайт Makana!</h1>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcACkmZVJHz4WDnjq_JNbS2XMWkFqz3MdIg&s" alt="Логотип Makana" width="300">
+    
+    <h2>О Makan</h2>
+    <p>Makan - это круто! Я большой фанат и хочу рассказать вам все что знаю.</p>
+    
+    <h2>Почему Makan лучшие?</h2>
+    <ul>
+        <li>У них крутая музыка</li>
+        <li>Они классно выступают на концертах</li>
+        <li>У них интересные тексты песен</li>
+        <li>Они вдохновляют людей</li>
+    </ul>
+    
+    <h2>Мои любимые песни</h2>
+    <ol>
+        <li>Alphalt 8</li>
+        <li>Jet</li>
+        <li>Брат</li>
+    </ol>
+    
+    
+
+    <h2>Расписание концертов</h2>
+    <table>
+        <tr>
+            <th>Дата</th>
+            <th>Город</th>
+            <th>Место</th>
+        </tr>
+        <tr>
+            <td>01.01.2069</td>
+            <td>Казань</td>
+            <td>Клуб "ДРИНКМОЛ ЕБАНЫЙ"</td>
+        </tr>
+        <tr>
+            <td>15.01.2025</td>
+            <td>Казань</td>
+            <td>Стадион "Уникс"</td>
+        </tr>
+    </table>
+    
+    <h2>Ссылки</h2>
+    <p>Официальный сайт: <a href="http://www.makan.com">www.makan.com</a></p>
+    <p>Соцсети: 
+        <a href="http://vk.com/makan">ВКонтакте</a>, 
+        <a href="http://instagram.com/makan">Instagram</a>
+    </p>    
+    
+    <hr>
+    
+    <!-- Форма обратной связи -->
+    <section id="feedback">
+        <h2>Форма обратной связи</h2>
+        <form id="feedback-form" style="max-width: 500px; margin: 20px auto; padding: 20px; border: 2px solid #ddd; border-radius: 10px; background: #f9f9f9;">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Имя:</label>
+                <input type="text" id="name" name="name" required 
+                       style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                <input type="email" id="email" name="email" required 
+                       style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required 
+                          style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; resize: vertical;"></textarea>
+            </div>
+            
+            <button type="submit" 
+                    style="background: #333; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                Отправить
+            </button>
+        </form>
+    </section>
+    
+    <hr>
+    <footer>
+        <p>Фанатский сайт Makana © 2023</p>
+        <p>Сайт создан фанатом для фанатов</p>
+    </footer>
+    
+    <!-- Подключение JavaScript -->
+    <script src="src/main.js"></script>
+</body>
+</html>
